@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/f1b015d528.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>KRISHNA</span>
+            SAMY</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#education">EDUCATION</a>
+            <a href="#certifications">CERTIFICATION</a>
+            <a href="#projects">VALUE ADDITION</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        
+        <div class="home-content">
+            <h1>Hi, It's <span>Krishna</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Engineering Graduate Specialized in Computer Science</p> <br> <br>
+            
+            <div class="btn-group">
+                <a href="Resume/CV.pdf" download class="btn"><i class="fa-solid fa-download"></i> CV</a>
+                <a href="#contact" class="btn">Contact</a> 
+            </div>  
+
+        </div>
+
+        <div class="home-img">
+            <img src="img/2.png" alt="">
+        </div>
+
+    </section>
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/1.png">
+                </div>
+                <div class="about-col-2">
+                    <h3 class="sub-title">ABOUT <span>ME</span></h3>
+                    <p>Highly motivated and skilled Fresher Computer Science with a passion for developing innovative software solutionsProficient in various programming languages including C, Python with experience in developing web and mobile applications,designing databases, and debugging software. Collaborative team player with a proven track record of delivering high-quality work and achieving exceptional results.
+                    </p>
+                       
+                    <div class="tab-titles" id="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('area of interest')">Area of Interest</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Basics & Libraries<br>Intermediate</li>
+                            <li><span>HTML & CSS & JS</span><br>Frontend Operation & Support<br>Intermediate</li>
+                            <li><span>SQL</span><br>Intermediate</li>
+                        </ul>
+                    </div>
+        
+                    <div class="tab-contents" id="area of interest">
+                        <ul>
+                            <li><span>Web Development</span><br>Website & Web Appliction Development</li>
+                            <li><span>Software Development</span><br>Creating,Designing,Deploying & Supporting Software</li>
+                            <li><span>Artificial intelligence</span><br>Simulation of Human intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="education" id="education">
+        <h2 class="heading"><span>MY</span> EDUCATION</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date"> 2019 - 2023 </div>
+                <div class="timeline-content">
+                    <h3><b>UNIVERSITY</b></h3>
+                    <p>Dhanalakshmi Srinivasan Institute of Technology. Trichy,<br> Bachelore of Engineering Specialized in Computer Science With <b>8.43 CGPA</b></p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date"> 2017 - 2019 </div>
+                <div class="timeline-content">
+                    <h3><b>SCHOOLING</b></h3>
+                    <p>Sir Sivaswami Balavidhyalaya Matriculation Higher Secondary School. Thirukkattupalli,<br>High School<br>10th <b>91%</b><br>Higer Secondary<br>12th<b>62%</b></p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3><b>INTERNSHIP</b></h3>
+                    <p>Attended a INTERNSHIP on - <b>"VIRTUALIZATION"</b> conducted by Livewire CADD Centre, Trichy.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3><b>WORKSHOP</b></h3>
+                    <p>Attended a WORKSHOP on- <b>"Machine Learning"</b> conducted by Google Developers held on 14th May-2022 organized by Madras Institute of Technology, Anna University, Chennai.</p>
+                </div>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <!-------certifications------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title"><span>MY</span> CERTIFICATIONS</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Basics & Libraries <br> - By Eduprep</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML CSS JS</h2>
+                <p>Frontend Operation & Support<br> - By Udemy</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science Tools</h2>
+                <p>- By ICT Academy</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>AI Powered Nutrition Analyzer For Fitness Enthusiast</h2>
+                <p>- By ICT Academy</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title"><span>MY</span> VALUE ADDITION</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="img/pr-11.jpg" >
+                <div class="layer">
+                    <h3>AI Powered Nutrition Analyzer For Fitness Enthusiasts [WEBAPP] (Certified by IBM)</h3>
+                    
+                    <a href="https://github.com/Krishna0904"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pr-1.jpg" >
+                <div class="layer">
+                    <h3>Password Reset Using Face Recognition Method. Developed 2-step authentication system utilizing integrated with Python Flask Python OpenCV </h3>
+                   
+                    <a href="https://github.com/Krishna0904"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pr-h.jpg" >
+                <div class="layer">
+                    <h3>wireless Music control using Hand Gesture Recognition utilizing CNN neural network for accurately classifies hand gestures commands to control music Player.</h3>
+                   
+                    <a href="https://github.com/Krishna0904"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/pr-4.png" >
+                <div class="layer">
+                    <h3>Developed 3D Portfolio utilizing React.JS Three.JS  and Tailwind CSS</h3>
+                    
+                    <a href="https://github.com/Krishna0904"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="contact">
+        <h1 class="sub-title">CONTACT <span>ME</span></h1>
+        <div class="container">
+            <div class="row">  
+                <div class="contact-left">    
+                    <p><i class="fa-solid fa-envelope"></i>krishna86352@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9150147435</p> <br>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="YOUR NAME" required>
+                        <input type="email" name="Email" placeholder="YOUR EMAIL" required>
+                        <textarea name="Message" rows="6" placeholder="YOUR MESSAGE"></textarea>
+                        <button type="submit" class="btn1 btn2">SEND MESSAGE</button>
+                    </form> 
+                </div>          
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="social">
+                <a href="linkedin.com/in/krishnasamy-r-35b9bb292"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Krishna0904"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_.krishna_r?igsh=YmhwaDB6dTA1MXEw "><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/krishna2k02?t=xsv2loKx4YCbeSF3yIcYUw&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/share/eByMTNNZuNmtVWVH/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+    
+            <p class="copyright">
+                copyright ©Krishna | Made with <i class="fa-solid fa-heart"></i>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx5YrwAjtEYaavL9GHwiAjgTDxuNQK0vz8qBuFtKA0xvK_gmfguHspNPH_Xgy8wnIIH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message Sent Successfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
